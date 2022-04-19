@@ -298,11 +298,11 @@ section {
             line-height: 2rem;
             //padding: 1rem;
             color: var(--color-grey-1);
-        }
-        .alt {
-            margin: 0 0 1.5rem ;
-            line-height: 2rem;
-            color: var(--color-grey-1);
+            .alt {
+                margin: 0 0 1.5rem ;
+                line-height: 2rem;
+                color: var(--color-secondary);
+            }
         }
     }
     .right-about {
@@ -332,13 +332,28 @@ section {
             &:hover {
                 cursor: default;
                 transform: translateY(-5px);
-                border: 3px solid var(--color-grey-1);
+                border: 3px solid var(--color-grey-3);
                 box-shadow: 1px 2px 15px var(--color-grey-6);
                 border-radius: 20px;
             }
         }
     }
 
+}
+
+.teams-interested {
+    .progress-bars {
+        margin-right: 10%;
+        margin-left: 10%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        p {
+            margin: 0 0 1.5rem ;
+            line-height: 2rem;
+            color: var(--color-grey-1);
+        }
+    }
+    margin-bottom: 0rem;
 }
 
 .about-stats {
@@ -429,6 +444,15 @@ section {
     text-align: center;
     padding: 3.5rem 0;
     position: relative;
+}
+
+.teamnames {
+    text-transform: uppercase;
+    font-size: 1.0rem;
+    text-align: center;
+    position: relative;
+    color:#33412b;
+    margin-bottom: 2rem;
 }
 
 .stat-title::before {

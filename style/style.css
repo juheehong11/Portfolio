@@ -389,10 +389,10 @@ section {
   color: var(--color-grey-1);
 }
 
-.about-container .left-about .alt {
+.about-container .left-about p .alt {
   margin: 0 0 1.5rem;
   line-height: 2rem;
-  color: var(--color-grey-1);
+  color: var(--color-secondary);
 }
 
 .about-container .right-about .about-item {
@@ -435,6 +435,25 @@ section {
   -webkit-box-shadow: 1px 2px 15px var(--color-grey-6);
           box-shadow: 1px 2px 15px var(--color-grey-6);
   border-radius: 20px;
+}
+
+.teams-interested {
+  margin-bottom: 5rem;
+}
+
+.teams-interested .progress-bars {
+  margin-right: 10%;
+  margin-left: 10%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+}
+
+.teams-interested .progress-bars p {
+  margin: 0 0 1.5rem;
+  line-height: 2rem;
+  color: var(--color-grey-1);
 }
 
 .about-stats {
